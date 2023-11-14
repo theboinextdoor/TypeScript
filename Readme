@@ -1,0 +1,19 @@
+1. TO RUN THE TYPESCRIPT FILE : tsc filename.tsc
+
+Function:- 
+4. when there is error is TS file then you cannot make a JS file but by default you can do so 
+   to pervent this problem you must set some configuratiom in ts file 
+   - on Terminal write "tsc --init"      (this will make a cofiguration file ).
+   - on ts config file un-comment the "noEmmitOnError
+
+5. install npm for typescript is  "npm install -g typescript"
+
+
+************************ TS Configuration ************************************************
+
+1. TO SAVE TS AND JS FILE ON DIFFERNET FOLDER:-
+   - go to ts config file 
+   - go to "rootDir" directory - and set the ts-file name .
+   - then go to "outDir" and write the js file name where you want the output  
+
+2. tsc filename.ts --watch , and avoid saving the ts file to the javascript file again and again.
